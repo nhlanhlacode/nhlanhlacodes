@@ -3,30 +3,40 @@ import { Check, Sparkles } from "lucide-react";
 import { useOrder } from "../context/OrderContext.jsx";
 
 const BASES = [
-  { id: "espresso", label: "Espresso", price: 3.5, pattern: "dots" },
-  { id: "matcha", label: "Matcha", price: 4.5, pattern: "waves" },
-  { id: "coldbrew", label: "Cold Brew", price: 4, pattern: "hatch" },
+  { id: "espresso", label: "Espresso", price: 59.50, pattern: "dots" },
+  { id: "matcha", label: "Matcha", price: 76.50, pattern: "waves" },
+  { id: "coldbrew", label: "Cold Brew", price: 68, pattern: "hatch" },
+  { id: "cappuccino", label: "Cappuccino", price: 68, pattern: "dots" },
+  { id: "latte", label: "Latte", price: 68, pattern: "waves" },
+  { id: "americano", label: "Americano", price: 51, pattern: "hatch" },
 ];
 
 const MILKS = [
   { id: "none", label: "No milk", opacity: 1, price: 0 },
   { id: "whole", label: "Whole", opacity: 0.85, price: 0 },
-  { id: "oat", label: "Oat", opacity: 0.6, price: 0.6 },
-  { id: "almond", label: "Almond", opacity: 0.45, price: 0.6 },
+  { id: "oat", label: "Oat", opacity: 0.6, price: 10.20 },
+  { id: "almond", label: "Almond", opacity: 0.45, price: 10.20 },
+  { id: "coconut", label: "Coconut", opacity: 0.55, price: 10.20 },
+  { id: "soy", label: "Soy", opacity: 0.65, price: 8.50 },
 ];
 
 const SYRUPS = [
   { id: "none", label: "None", price: 0 },
-  { id: "vanilla", label: "Vanilla", price: 0.5 },
-  { id: "caramel", label: "Caramel", price: 0.5 },
-  { id: "hazelnut", label: "Hazelnut", price: 0.5 },
+  { id: "vanilla", label: "Vanilla", price: 8.50 },
+  { id: "caramel", label: "Caramel", price: 8.50 },
+  { id: "hazelnut", label: "Hazelnut", price: 8.50 },
+  { id: "honey", label: "Honey", price: 8.50 },
+  { id: "maple", label: "Maple", price: 8.50 },
+  { id: "chocolate", label: "Chocolate", price: 10.20 },
 ];
 
 const TOPPINGS = [
-  { id: "cinnamon", label: "Cinnamon dust", price: 0.4 },
-  { id: "cocoa", label: "Cocoa dust", price: 0.4 },
-  { id: "cream", label: "Whipped cream", price: 0.7 },
-  { id: "shot", label: "Extra shot", price: 0.9 },
+  { id: "cinnamon", label: "Cinnamon dust", price: 6.80 },
+  { id: "cocoa", label: "Cocoa dust", price: 6.80 },
+  { id: "cream", label: "Whipped cream", price: 11.90 },
+  { id: "shot", label: "Extra shot", price: 15.30 },
+  { id: "chocolate-chip", label: "Chocolate chips", price: 10.20 },
+  { id: "caramel-drizzle", label: "Caramel drizzle", price: 10.20 },
 ];
 
 const SIZES = [
