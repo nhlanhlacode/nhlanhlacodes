@@ -52,7 +52,7 @@ export default function PickupCart() {
               <CheckScribble className="w-16 h-14 mb-4" />
               <p className="font-hand text-3xl">See you at {pickupTime}</p>
               <p className="text-ink-faint text-sm mt-2 max-w-xs">
-                {order.length} cup{order.length !== 1 ? "s" : ""}, ${total} total. We'll have it
+                {order.length} cup{order.length !== 1 ? "s" : ""}, R{total} total. We'll have it
                 sketched out and ready at the counter.
               </p>
               <button
@@ -84,7 +84,7 @@ export default function PickupCart() {
                       </p>
                     </div>
                     <div className="flex flex-col items-end gap-2 shrink-0">
-                      <span className="text-sm font-semibold">${d.price}</span>
+                      <span className="text-sm font-semibold">R{d.price}</span>
                       <button
                         onClick={() => removeDrink(d.id)}
                         aria-label={`Remove ${d.name}`}
@@ -125,7 +125,7 @@ export default function PickupCart() {
           <div className="px-6 py-5 border-t border-line shrink-0">
             <div className="flex items-center justify-between mb-4">
               <span className="text-ink-faint text-sm">Total</span>
-              <span className="font-display text-xl font-semibold">${total}</span>
+              <span className="font-display text-xl font-semibold">R{total}</span>
             </div>
             <button
               onClick={confirm}

@@ -5,25 +5,25 @@ const ITEMS = [
     icon: BeanIcon,
     name: "Standing Order",
     note: "double espresso, no water, no apologies",
-    price: "$4",
+    price: "R68",
   },
   {
     icon: LeafIcon,
     name: "Field Notes",
     note: "ceremonial matcha, oat milk, thin ice",
-    price: "$5.50",
+    price: "R93.50",
   },
   {
     icon: DropletIcon,
     name: "Slow Drip",
     note: "18-hour cold brew, cracked pepper edge",
-    price: "$5",
+    price: "R85",
   },
   {
     icon: BeanIcon,
     name: "Margin Notes",
     note: "cortado, two sugars, short glass",
-    price: "$4.50",
+    price: "R76.50",
   },
 ];
 
