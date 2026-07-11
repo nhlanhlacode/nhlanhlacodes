@@ -295,7 +295,7 @@ export default function DrinkBuilder() {
             </p>
 
             <div className="w-full flex items-center justify-between mt-6 pt-6 border-t border-line">
-              <span className="font-display text-2xl font-semibold">${price}</span>
+              <span className="font-display text-2xl font-semibold">R{price}</span>
               <button
                 onClick={handleLockIn}
                 className="inline-flex items-center gap-2 bg-ink text-paper text-sm font-medium rounded-full px-5 py-2.5 hover:-translate-y-0.5 transition-transform duration-150"
