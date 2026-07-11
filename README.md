@@ -55,3 +55,4 @@ tailwind.config.js            → the monochrome ink/paper token system (colors,
 - All interactive state (drink builder, cart, booking, board) is local React
   state — no backend. Swap in real endpoints in `OrderContext.jsx` and the
   `submit`/`addNote` handlers when you're ready to wire it up.
+# nhlanhla-s-coffe-shop
